@@ -12,7 +12,8 @@ const config = {
   AUTO_RECORDING: process.env.AUTO_RECORDING !== undefined ? process.env.AUTO_RECORDING === 'true' : false,
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE !== undefined ? process.env.ALWAYS_ONLINE === 'true' : false,
   AUTO_REACT: process.env.AUTO_REACT !== undefined ? process.env.AUTO_REACT === 'true' : false,
-   /*auto block only for 212 */
+  AUTO_VOICE_RIPLY: process.env.AUTO_VOICE_RIPLY !==mkut na ane mk process.env.AUTO_VOICE_RIPLY === 'true' : false,
+  /*auto block only for 212 */
   AUTO_BLOCK: process.env.AUTO_BLOCK !== undefined ? process.env.AUTO_BLOCK === 'true' : true,
   
   
